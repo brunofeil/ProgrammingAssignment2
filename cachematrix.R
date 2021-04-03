@@ -4,7 +4,7 @@
 ## The function cacheSolve gets as argument a "cached" matrix and returns its
 ## inverse. If the inverse of the "cached" matrix exists (it is already calculated),
 ## then return the cached inverse of the matrix. If it not exists, then calculate its
-## inverse, set the inverse and return it
+## inverse, set the inverse to the "cached" matrix and return it
 
 ## Get a matrix and create a structure to "cache" the matrix and its inverse. Return
 ## the setters and getters to the cached matrix and its cached inverse.
